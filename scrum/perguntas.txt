@@ -1,0 +1,69 @@
+1. Scrum é um framework ágil para gerenciamento de projetos complexos que organiza o trabalho em ciclos curtos chamados sprints, onde a equipe colabora de forma transparente e adaptativa para entregar valor contínuo ao cliente. Ele simplifica processos mantendo registros visíveis do andamento das etapas, promovendo flexibilidade, criatividade e melhoria constante[1][3][7].
+
+2. Três papéis no Scrum são:
+- Product Owner: responsável por representar os interesses dos clientes e stakeholders, definindo e priorizando as funcionalidades no backlog do produto.
+- Scrum Master: facilita o processo Scrum, removendo impedimentos e garantindo que a equipe siga as boas práticas da metodologia.
+- Equipe de Desenvolvimento: grupo multifuncional que executa as tarefas e desenvolve o produto durante os sprints[1][6][7].
+
+3. Backlog é uma lista ordenada de todas as tarefas, funcionalidades ou melhorias que devem ser feitas para o produto. Exemplo de backlog com 3 itens para um app:
+- Implementar cadastro de usuários
+- Criar tela de lista de tarefas
+- Adicionar função de notificação de prazos
+
+4. Tabela de planejamento de sprint de 1 semana:
+
+| Dia          | Atividade                      |
+|--------------|--------------------------------|
+| Segunda      | Planejamento do Sprint          |
+| Terça       | Desenvolvimento das tarefas      |
+| Quarta      | Desenvolvimento das tarefas      |
+| Quinta      | Desenvolvimento das tarefas      |
+| Sexta       | Revisão do Sprint e Retrospectiva|
+
+5. Modelo simples de cronograma de projeto (exemplo com etapas básicas):
+
+| Etapa                  | Início       | Fim          | Responsável   |
+|------------------------|--------------|--------------|---------------|
+| Planejamento           | 01/08/2025   | 02/08/2025   | Gerente de Projeto |
+| Desenvolvimento        | 03/08/2025   | 07/08/2025   | Equipe Dev    |
+| Testes                 | 08/08/2025   | 09/08/2025   | QA            |
+| Entrega                | 10/08/2025   | 10/08/2025   | Equipe Dev    |
+
+6. Documento de Requisitos deve conter descrição clara das funcionalidades do sistema, requisitos funcionais e não funcionais, critérios de aceitação, restrições, prioridades, e informações sobre o usuário ou cenário de uso.
+
+7. User Story é uma descrição simples e breve de uma funcionalidade do ponto de vista do usuário final. Exemplo para um app de tarefas:
+"Como usuário, quero adicionar uma nova tarefa para organizar meu dia e não esquecer das atividades."
+
+8. Fluxograma simples de sistema de login:
+- Início
+- Entrada de usuário e senha
+- Verificar credenciais
+- Se credenciais válidas → acesso permitido
+- Se inválidas → mensagem de erro e solicitar nova entrada
+- Fim
+
+9. Quadro Kanban com 3 tarefas em andamento:
+
+| To Do           | In Progress            | Done          |
+|-----------------|-----------------------|---------------|
+|                 | Implementar login      |               |
+|                 | Criar tela de tarefas  |               |
+|                 | Testar notificações   |               |
+
+10. Três boas práticas de documentação de sistemas:
+- Manter a documentação atualizada com as mudanças do sistema
+- Utilizar linguagem clara e objetiva, acessível a todos os envolvidos
+- Documentar decisões importantes e motivos para facilitar manutenção futura
+
+Se desejar, posso ajudar com detalhes ou expandir qualquer item.
+
+[1] https://fia.com.br/blog/scrum/
+[2] https://thomazribas.com/blog/scrum
+[3] https://www.cnnbrasil.com.br/tecnologia/scrum/
+[4] https://www.ieepeducacao.com.br/o-que-e-scrum/
+[5] https://www.totvs.com/blog/negocios/scrum/
+[6] https://neotriad.com/blog/scrum-o-que-e/
+[7] https://www.atlassian.com/br/agile/scrum
+[8] https://www.dinamize.com.br/blog/scrum/
+[9] https://aws.amazon.com/pt/what-is/scrum/
+[10] https://www.atlassian.com/br/agile/project-management/3-pillars-scrum

@@ -1,0 +1,13 @@
+Se a função pinMode() não for usada corretamente no Arduino, o principal problema é que o pino pode não funcionar como esperado, causando comportamento indefinido ou errático. Isso acontece porque pinMode() configura se um pino será usado como entrada (INPUT) ou saída (OUTPUT), e sem essa configuração correta, o pino pode estar em estado de alta impedância (entrada) quando deveria fornecer tensão (saída), ou vice-versa.
+
+Especificamente:
+
+Se um pino que deve enviar sinais (como acionar um LED) não for configurado como OUTPUT usando pinMode(), ele não entregará o nível de tensão correto. Por exemplo, LEDs podem acender fracamente ou não acender, pois o pino não está apto a fornecer corrente suficiente.
+
+Se um pino de entrada não estiver configurado (como INPUT ou INPUT_PULLUP), seu estado pode ficar flutuante, ou seja, com nível de tensão instável e sujeito a ruídos, dificultando leituras digitais confiáveis.
+
+Usar incorretamente pinMode() (por exemplo, confundir HIGH/LOW com OUTPUT/INPUT nos parâmetros) pode fazer com que o pino não funcione, e o circuito que depende dele deixe de operar corretamente, como motores que não giram ou LEDs que não acendem.
+
+Além disso, erros de sintaxe ou lógica na declaração da pinMode podem resultar em tensão insuficiente nas saídas, como no caso citado onde o uso errado em um laço for causou saída de ~1,7V em vez dos 5V esperados.
+
+Em resumo, o uso correto de pinMode() é fundamental para garantir que cada pino do Arduino opere no modo desejado, seja para ler sinais de sensores ou controlar dispositivos externos. Não usar ou usar errado essa função compromete a funcionalidade do hardware conectado e do programa rodando no Arduino

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fundo Hover</title>
+</head>
+<style>
+    .container {
+        height: 400px;
+        /* Define a altura do contêiner como 400 pixels */
+
+        width: 400px;
+        /* Define a largura do contêiner como 400 pixels */
+
+        background-color: red;
+        /* Cor de fundo vermelha para o contêiner */
+
+        display: flex;
+        /* Define o contêiner como um Flexbox, permitindo usar as propriedades de alinhamento */
+
+        justify-content: center;
+        /* Centraliza horizontalmente o conteúdo dentro do contêiner */
+
+        align-items: center;
+        /* Centraliza verticalmente o conteúdo dentro do contêiner */
+    }
+
+    .container:hover {
+        background-color: blue;
+        /* Quando o mouse passar sobre o contêiner, muda a cor de fundo para azul */
+    }
+</style>
+
+<body>
+
+<div class="container">
+    <span>Texto ilustrativo</span>
+    <!-- Texto dentro do contêiner que ficará centralizado graças ao Flexbox -->
+</div>
+
+</body>
+</html>

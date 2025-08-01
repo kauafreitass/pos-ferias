@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+</head>
+<style>
+    span {
+        font-size: 400px;
+        /* Define o tamanho da fonte do texto dentro do <span> para 400 pixels, deixando-o muito grande */
+
+        color: red;
+        /* Define a cor do texto como vermelho */
+    }
+
+    @media (max-width: 768px) {
+        /* Esta regra será aplicada somente se a largura da janela do navegador for menor ou igual a 768 pixels,
+           ou seja, em telas menores como tablets e celulares */
+
+        span {
+            font-size: 100px;
+            /* Reduz o tamanho da fonte para 100 pixels em telas pequenas, para melhor visualização e responsividade */
+
+            color: black;
+            /* Altera a cor do texto para preto em telas pequenas */
+        }
+    }
+</style>
+
+<body>
+
+<span>texto</span>
+<!-- Texto "texto" dentro do elemento <span>, que terá tamanho e cor conforme definido acima -->
+
+</body>
+
+</html>

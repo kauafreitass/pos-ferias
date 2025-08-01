@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário cadastro de usuário</title>
+</head>
+<body>
+
+<form>
+    <!-- Início do formulário HTML. Como não tem o atributo "method", o padrão para envio será via GET -->
+
+    <input type="text" placeholder="Nome">
+    <!-- Campo de texto para o usuário digitar o nome.
+         O atributo "placeholder" mostra o texto "Nome" dentro da caixa antes do usuário começar a digitar -->
+
+    <input type="email" placeholder="E-mail">
+    <!-- Campo específico para entrada de email.
+         O navegador pode validar se o que foi digitado parece um email válido.
+         O "placeholder" mostra "E-mail" como dica para o usuário -->
+
+    <input type="date" placeholder="Data de nascimento">
+    <!-- Campo para o usuário selecionar uma data através de um seletor de datas nativo do navegador.
+         O placeholder nem sempre aparece em todos os navegadores para inputs do tipo date. -->
+
+    <input type="password" placeholder="Senha">
+    <!-- Campo para o usuário digitar a senha. Os caracteres digitados ficam ocultos.
+         O placeholder mostra "Senha" para orientar o usuário -->
+
+    <button>Criar usuário</button>
+    <!-- Botão para enviar o formulário.
+         Sem o atributo type, o padrão é "submit", ou seja, ao clicar ele envia o formulário -->
+</form>
+
+
+</body>
+</html>

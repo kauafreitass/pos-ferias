@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Divs horizontais</title>
+</head>
+<style>
+    .section {
+        display: flex;
+        /* Define o elemento <section> como contêiner Flexbox */
+
+        gap: 60px;
+        /* Espaço de 60 pixels entre os elementos filhos diretos (as .container) */
+    }
+
+    .container {
+        height: 200px;
+        /* Altura fixa de 200 pixels */
+
+        width: 200px;
+        /* Largura fixa de 200 pixels */
+
+        background-color: red;
+        /* Cor de fundo vermelha */
+
+        display: flex;
+        /* Define o contêiner como Flexbox para alinhar o conteúdo interno */
+
+        justify-content: center;
+        /* Centraliza o conteúdo horizontalmente */
+
+        align-items: center;
+        /* Centraliza o conteúdo verticalmente */
+    }
+</style>
+
+<body>
+
+<section class="section">
+    <!-- Contêiner flex que agrupa os dois elementos .container horizontalmente -->
+
+    <div class="container">
+        <span>Div 1</span>
+        <!-- Conteúdo da primeira caixa vermelha -->
+    </div>
+
+    <div class="container">
+        <span>Div 2</span>
+        <!-- Conteúdo da segunda caixa vermelha -->
+    </div>
+</section>
+
+</body>
+</html>

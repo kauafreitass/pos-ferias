@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<style>
+    .section {
+        display: flex;
+        /* Define o elemento <section> como um contêiner Flexbox */
+
+        justify-content: center;
+        /* Centraliza horizontalmente o conteúdo dentro da seção */
+    }
+
+    .form {
+        display: flex;
+        /* Define o formulário como um contêiner Flexbox */
+
+        flex-direction: column;
+        /* Organiza os elementos filhos (inputs, textarea, botão) em coluna, um embaixo do outro */
+
+        width: 100px;
+        /* Define a largura do formulário como 100 pixels */
+
+        gap: 12px;
+        /* Espaço (margin interna) de 12 pixels entre cada elemento filho do formulário */
+
+        margin: 100px;
+        /* Espaço externo em volta do formulário, 100 pixels em todos os lados */
+
+        padding: 20px;
+        /* Espaço interno do formulário, ajuda a deixar o conteúdo afastado da borda */
+
+        border: 1px solid black;
+        /* Borda preta sólida de 1 pixel ao redor do formulário */
+    }
+</style>
+
+<body>
+
+<section class="section">
+    <!-- Seção que usa Flexbox para centralizar o formulário horizontalmente -->
+
+    <form class="form">
+        <!-- Formulário configurado para exibir os campos e botão em coluna, com espaçamento e borda -->
+
+        <input type="text" placeholder="Nome">
+        <!-- Campo de texto simples para o usuário digitar o nome -->
+
+        <input type="text" placeholder="Email">
+        <!-- Segundo campo de texto simples para digitar email -->
+
+        <textarea></textarea>
+        <!-- Área de texto multilinha, sem placeholder -->
+
+        <button>Enviar</button>
+        <!-- Botão para enviar o formulário -->
+    </form>
+</section>
+
+</body>
+</html>
